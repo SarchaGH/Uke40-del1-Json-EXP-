@@ -24,4 +24,7 @@ console.log(spill[3]);
 ```
 
 2. Hvordan man bruker Json fillen **(filennavn.json)** inne Javascript også viser det text på skjermen
-```
+
+- Json filen
+```Json
+
