@@ -63,3 +63,17 @@ liste.innerHTML = data.artister[1].navn;// data.artister[0].navn; here!
 
 - HTML hvor man organizerer nettsiden
 ```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>json test</title>
+    <script src="exp.js"></script>
+</head>
+<body>
+    <ul id="artister"></ul> //vi lage ID har!
+    <ul id="joke"></ul>
+</body>
+</html>
+```
