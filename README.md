@@ -25,6 +25,29 @@ console.log(spill[3]);
 
 2. Hvordan man bruker Json fillen **(filennavn.json)** inne Javascript også viser det text på skjermen
 
-- Json filen
+- Struktur av Json fillen(XXX.json)
 ```Json
-
+{
+  "artister": [
+    {
+      "navn": "Aurora",
+      "sjanger": "Pop",
+      "album": ["All My Demons Greeting Me as a Friend"],
+      "debut": 2015
+    },
+    {
+      "navn": "Sigrid",
+      "sjanger": "Pop",
+      "album": ["Sucker Punch", "How to Let Go"],
+      "debut": 2017
+    },
+    {
+      "navn": "qwerty",
+      "sjanger": "Popcorn",
+      "album": ["ohnananaa"],
+      "debut": 2067
+    }
+  ]
+}
+```
+- Javascript 
