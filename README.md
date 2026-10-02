@@ -50,4 +50,16 @@ console.log(spill[3]);
   ]
 }
 ```
+
 - Javascript 
+```Javascript
+fetch("musikk.json")
+.then(response => response.json())
+.then(data => {
+const liste = document.getElementById("artister");
+liste.innerHTML = data.artister[1].navn;// data.artister[0].navn; here!
+});
+```
+
+- HTML hvor man organizerer nettsiden
+```
