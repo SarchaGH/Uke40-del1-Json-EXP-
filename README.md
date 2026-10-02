@@ -62,7 +62,7 @@ liste.innerHTML = data.artister[1].navn;// data.artister[0].navn; here!
 ```
 
 - HTML hvor man organizerer nettsiden
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
