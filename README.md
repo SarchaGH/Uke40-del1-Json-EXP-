@@ -33,10 +33,16 @@ console.log(spill[1])
 console.log(spill[2]);
 console.log(spill[3]);
 ```
+Resultat:
+```Plain Text(console)
+Minecraft
+Roblox
+Fortnite
+Valorant
+```
 
-2. Hvordan man bruker Json fillen **(filennavn.json)** inne Javascript også viser det text på skjermen
-
-- Struktur av Json fillen(XXX.json)
+2. Eksempel 2 Bruke JSON-fil
+- Struktur på Json filen(XXX.json)
 ```Json
 {
   "artister": [
@@ -71,8 +77,13 @@ const liste = document.getElementById("artister");
 liste.innerHTML = data.artister[1].navn;// data.artister[0].navn; here!
 });
 ```
+**Forklaring**
+- fetch() leser JSON-filen.
+- esponse.json() gjør JSON-data om til et JavaScript-objekt.
+- data.artister[1].navn henter navnet til den andre artisten.
+- innerHTML viser teksten på nettsiden.
 
-- HTML hvor man organizerer nettsiden
+3. EXP. HTML
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -88,3 +99,16 @@ liste.innerHTML = data.artister[1].navn;// data.artister[0].navn; here!
 </body>
 </html>
 ```
+Her lager vi elementer med egne id-er.
+```html
+ <ul id="artister"></ul>
+    <ul id="joke"></ul>
+```
+
+## Hva har jeg lært?
+
+- Hva JSON er
+- Hvordan JSON er bygget opp
+- Hvordan lese JSON med JavaScript
+- Hvordan bruke fetch()
+- Hvordan vise data fra **Json** filen på en nettside
