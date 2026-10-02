@@ -1,22 +1,33 @@
 # Uke40-del1-Json-EXP-
 
-# JSON fillen 
-### I disse project lærer hvordan bruker vi **Json**  fillen inni project
+# JSON
+
+## Om prosjektet
+
+I dette prosjektet lærer jeg hvordan man bruker JSON-filer og API-er i nettsider ved hjelp av JavaScript.
+Jeg har lært hvordan man leser data fra en lokal JSON-fil og hvordan man henter data fra et eksternt API.
 
 ## Hva er Json filen?
-Json filen er fil som bruker liksom  **storage** for text eller informasjon som vi kan bruker det texter inni forskjellig arbeider
 
-## EXP. for hvordan man bruker Json fiiler til nettsiden eller console
+**JSON står for JavaScript Object Notation.**
+JSON er et format for å lagre og utveksle data. Det brukes ofte mellom nettsider og programmer og det er enkelt å lese og skrive.
 
-1. Disse er hvordan man lage text inni Javascript også viser fram i console
+**EXP:**
+```Json
+{
+"navn": "Saran",
+"alder": 17,
+"land": "Thailand"
+}
+```
+
+1. Lagre data inn Javascript
 ```javascript
 const spill = [
   "Minecraft", //0//
   "Roblox",
   "Fortnite",
-  "Valorant"   //3//
-];
-
+  "Valorant" ];//3//
 console.log(spill[0]);
 console.log(spill[1])
 console.log(spill[2]);
